@@ -21,3 +21,15 @@ $ make
 $ cd ../jitbuilder/release/cpp
 $ ln -s ../../../build/jitbuilder/libjitbuilder.a .
 
+
+# build and run the code samples
+$ make test
+
+Running the code:
+
+Goto src/scripts dir
+run the python script runProgram.py using the command : python3 runProgram.py
+
+Tips:
+Remember to specify the path where you need to run make commands in the python script
+Remember to specify the path where the .csv file are present in the NestedLopp.cpp file
